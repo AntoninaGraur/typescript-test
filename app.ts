@@ -60,5 +60,5 @@ db = {
   id: 1234,
   title: "Some",
   name: "Alex",
-  info: { date: new Date() },
+  info: { date: new Date(), isNew:true},
 };
