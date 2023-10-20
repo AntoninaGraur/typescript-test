@@ -36,4 +36,8 @@ let arrNumber:number[] = [];
 arrNumber = [1, 2, 3];
 
 let arrAny: any[] = [];
-arrAny= [1, 'string', {}, ]
+arrAny = [1, 'string', {},];
+
+
+let arrObject: { name: string, }[];
+arrObject = [{ name: 'Alex' }, { name: 'John' }];
