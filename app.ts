@@ -34,3 +34,6 @@ arr = ['string'];
 
 let arrNumber:number[] = [];
 arrNumber = [1, 2, 3];
+
+let arrAny: any[] = [];
+arrAny= [1, 'string', {}, ]
