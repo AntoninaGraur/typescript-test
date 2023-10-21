@@ -73,7 +73,19 @@ some = 1;
 some = { name: 'Ant' };
 some.name;
 
-//give us no falls
+//give us no errors
 
 //type unknow
 
+let number: number;
+number = some;
+//give no errors
+
+let somthing: unknown;
+somthing = 18;
+somthing = 'qwe';
+
+let str: string;
+
+if (typeof somthing === 'string') { str = somthing;} //no error
+// str = somthing;    //give us error
