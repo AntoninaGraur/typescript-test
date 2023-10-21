@@ -62,3 +62,18 @@ db = {
   name: "Alex",
   info: { date: new Date(), isNew:true},
 };
+
+
+//any type
+
+
+let some: any;
+some = 'Alex';
+some = 1;
+some = { name: 'Ant' };
+some.name;
+
+//give us no falls
+
+//type unknow
+
