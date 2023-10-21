@@ -87,5 +87,11 @@ somthing = 'qwe';
 
 let str: string;
 
-if (typeof somthing === 'string') { str = somthing;} //no error
+if (typeof somthing === 'string') { str = somthing;} //no error //type guard
 // str = somthing;    //give us error
+
+
+// type tuple
+
+let fixed: [string, number];
+fixed = ['string', 1];
