@@ -95,3 +95,22 @@ if (typeof somthing === 'string') { str = somthing;} //no error //type guard
 
 let fixed: [string, number];
 fixed = ['string', 1];
+
+
+//type enum
+
+enum Togggle { ENABLE, DISABLE };
+
+const service = {
+    status: Togggle.ENABLE,
+
+};
+
+if (service.status === Togggle.ENABLE) { 
+    console.log("It is active");
+    
+}
+
+//union type
+
+let union: number | string;
