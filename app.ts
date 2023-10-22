@@ -122,3 +122,23 @@ function combine(param1: string | number, param2: string | number) {
     if (typeof param1 === 'string' || typeof param2 === 'string') { return param1.toString()+param2.toString(); }
     return param1+param2;
 }
+
+
+//literal type
+
+
+const fruit:string[] = [];
+function workWithArrr(arr:string[], value:string,action: 'add'| 'delete') {
+    if (action === 'add') {
+    arr.push(value)
+    } else {
+        const index = arr.indexOf(value);
+        arr.splice(index, 1);
+    }
+    return arr;
+};
+workWithArrr(fruit, 'Banana', 'add')
+workWithArrr(fruit, 'Melon', 'add')
+workWithArrr(fruit, 'Pear', 'add')
+
+console.log(fruit);
